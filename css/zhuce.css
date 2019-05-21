@@ -1,0 +1,123 @@
+.zhuce {
+  border-bottom: 1px solid #ccc; }
+
+.zhuce_1 {
+  height: 64px;
+  padding: 0 30px; }
+  .zhuce_1 a {
+    display: inline-block;
+    width: 130px;
+    height: 64px;
+    line-height: 64px;
+    float: left; }
+    .zhuce_1 a img {
+      width: 100%; }
+    .zhuce_1 a i {
+      font-size: 18px; }
+  .zhuce_1 .zhuce_2 > span {
+    display: inline-block;
+    height: 64px;
+    line-height: 64px; }
+  .zhuce_1 .zhuce_2 > * {
+    padding: 0 20px;
+    color: #000; }
+
+.zhuce2 {
+  width: 100%;
+  height: 610px;
+  margin-top: 60px;
+  position: relative;
+  background: url("../images/denglu/bg-pc.jpg") no-repeat; }
+  .zhuce2 .zhuce2_1 {
+    height: 100%; }
+    .zhuce2 .zhuce2_1 > img {
+      display: inline-block;
+      width: 100px;
+      position: absolute;
+      top: -45px; }
+    .zhuce2 .zhuce2_1 .zhuce2_left {
+      width: 630px;
+      float: left;
+      color: #fff; }
+      .zhuce2 .zhuce2_1 .zhuce2_left .p1 {
+        padding-left: 30px;
+        font-size: 60px;
+        font-weight: 900;
+        padding-top: 252px; }
+      .zhuce2 .zhuce2_1 .zhuce2_left .p2 {
+        padding-left: 30px;
+        font-size: 20px; }
+    .zhuce2 .zhuce2_1 .zhuce2_right {
+      width: 494px;
+      height: 100%; }
+      .zhuce2 .zhuce2_1 .zhuce2_right .zhuce2_right_x {
+        width: 410px;
+        height: 524px;
+        background: #fff;
+        margin: 44px 0 0 84px;
+        text-align: center; }
+        .zhuce2 .zhuce2_1 .zhuce2_right .zhuce2_right_x input {
+          font-size: 20px; }
+        .zhuce2 .zhuce2_1 .zhuce2_right .zhuce2_right_x h2 {
+          font-size: 30px;
+          padding: 60px 0; }
+        .zhuce2 .zhuce2_1 .zhuce2_right .zhuce2_right_x .zhuce_x {
+          padding: 60px 0 30px; }
+        .zhuce2 .zhuce2_1 .zhuce2_right .zhuce2_right_x p {
+          margin: 10px 0;
+          font-size: 20px;
+          height: 29px;
+          text-align: left; }
+          .zhuce2 .zhuce2_1 .zhuce2_right .zhuce2_right_x p span {
+            float: left;
+            display: inline-block;
+            width: 100px;
+            padding-left: 20px; }
+        .zhuce2 .zhuce2_1 .zhuce2_right .zhuce2_right_x .yzm input {
+          width: 70px;
+          float: left; }
+        .zhuce2 .zhuce2_1 .zhuce2_right .zhuce2_right_x .yzm .yan {
+          font-size: 20px;
+          height: 29px;
+          width: 120px;
+          margin-left: 20px;
+          line-height: 29px; }
+        .zhuce2 .zhuce2_1 .zhuce2_right .zhuce2_right_x h4 {
+          margin: 30px 0; }
+          .zhuce2 .zhuce2_1 .zhuce2_right .zhuce2_right_x h4 a {
+            display: inline-block;
+            width: 194px;
+            height: 56px;
+            text-align: center;
+            line-height: 56px;
+            font-size: 14px;
+            color: #fff;
+            background: #1429a0;
+            border-radius: 30px; }
+        .zhuce2 .zhuce2_1 .zhuce2_right .zhuce2_right_x .bang {
+          font-size: 15px;
+          color: #1429a0;
+          text-decoration: underline;
+          margin-top: 20px;
+          display: inline-block; }
+        .zhuce2 .zhuce2_1 .zhuce2_right .zhuce2_right_x h5 {
+          margin-top: 18px;
+          line-height: 20px;
+          color: #333;
+          font-size: 14px; }
+
+.zhuce3 {
+  height: 113px;
+  box-sizing: border-box;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  border-top: 1px solid #ccc; }
+  .zhuce3 p {
+    margin-top: 20px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 12px;
+    color: #666; }
+
+/*# sourceMappingURL=zhuce.css.map */

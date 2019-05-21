@@ -1,0 +1,266 @@
+@charset "UTF-8";
+
+#footer_top {
+    padding: 24px 0 23px;
+    box-sizing: border-box;
+    height: 284px;
+    background: #f5f5f5;
+
+    .foot_1 {
+        height: 100%;
+        padding: 0 30px;
+        margin: 0 auto;
+
+        .foot_1_l {
+            width: 70%;
+            height: 188px;
+
+            .foot_1_ul {
+                font-size: 0;
+                position: relative;
+                height: 100%;
+
+                a {
+                    color: #000;
+                }
+
+                a:hover {
+                    color: blue;
+                }
+
+                >li {
+                    height: 100%;
+                    width: 33.33333333%;
+                    line-height: 24px;
+                    box-sizing: border-box;
+                    float: left;
+
+                    div {
+                        font-size: 14px;
+                        color: #5f5f5f;
+                        line-height: 16px;
+                        margin-bottom: 8px;
+                        padding-top: 20px;
+                    }
+
+                    .foot_ul_2 {
+                        li {
+                            height: 24px;
+                            line-height: 24px;
+                            box-sizing: border-box;
+                        }
+
+                        a {
+                            font-size: 14px;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .foot_1_r {
+            width: 30%;
+            height: 106px;
+            float: right;
+
+            .foot_1_r_1 {
+                padding-left: 21%;
+                height: 100%;
+
+                .foot_1_r_1_1 {
+                    display: block;
+                    color: #333;
+                    font-weight: bold;
+                    margin-left: 15px;
+                    font-size: 14px;
+                }
+
+                .weibo {
+                    margin-top: 20px;
+
+                    i {
+                        display: inline-block;
+                        width: 40px;
+                        height: 40px;
+                        margin-left: 15px;
+                        font-size: 38px;
+                    }
+
+                    i:hover {
+                        color: blue;
+                    }
+                }
+            }
+        }
+
+        >p {
+            font-size: 14px;
+            color: #333;
+            line-height: 14px;
+            margin: 30px 0 5px 0;
+        }
+    }
+}
+
+#footer_bottom {
+    padding: 28px 0;
+    background-color: #525252;
+    height: 132px;
+    box-sizing: border-box;
+
+    .foot_bottom {
+        height: 100%;
+        padding: 0 30px;
+
+        .foot_l {
+            width: 480px;
+            height: 63px;
+
+            .foot_ul {
+                display: inline-block;
+
+                li {
+                    float: left;
+                    margin-right: 25px;
+                    line-height: 14px;
+                    margin-bottom: 14px;
+
+                    a {
+                        font-size: 14px;
+                        color: #fff;
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            p {
+                font-size: 12px;
+                color: #ccc;
+                line-height: 14px;
+                margin-bottom: 0;
+                margin-top: 14px;
+            }
+        }
+
+        .foot_r {
+            p {
+                font-size: 12px;
+                color: #fff;
+                line-height: 14px;
+                margin-bottom: 9px;
+            }
+
+            .p1 {
+                width: 280px;
+                line-height: 16px;
+            }
+
+            .p2 {
+                a {
+                    float: left;
+                    position: relative;
+                    margin-right: 10px;
+                    margin-left: 18px;
+                    display: inline-block;
+                    text-decoration: none;
+                    height: 20px;
+                    line-height: 25px;
+                    color: #FFFFFF;
+                    box-sizing: border-box;
+
+                    img {
+                        display: inline-block;
+                        margin-top: -4px;
+                        width: 20px;
+                        height: 20px;
+                        position: absolute;
+                        top: 6px;
+                        left: -21px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+#zixunkefu {
+    position: fixed;
+    z-index: 999;
+    bottom: 110px;
+    right: 10px;
+
+    .zixun_1 {
+        background: #1323A6;
+        background-repeat: no-repeat;
+        background-size: 380px;
+        height: 50px;
+        width: 128px;
+        // background-position-x: -9px;
+        // background-position-y: -105px;
+        border-radius: 7px;
+        cursor: pointer;
+
+        i {
+            font-size: 48px;
+            color: #fff;
+        }
+
+        span {
+            color: #fff;
+            position: absolute;
+            line-height: 50px;
+            font-weight: 600;
+            font-size: 14.5px;
+        }
+
+    }
+}
+
+#zixunkefu2 {
+    position: fixed;
+    bottom: 110px;
+    right: 10px;
+    height: 465px;
+    width: 300px;
+    z-index: 9999;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, .2);
+    display: none;
+
+    .zixun_2 {
+        height: 100%;
+
+        .zixun_top {
+            height: 10%;
+            font-size: 1em;
+            width: 100%;
+            cursor: pointer;
+            box-shadow: 0 0 1px 2px rgba(0, 0, 0, .2);
+            background-color: #1428a0;
+            color: #fff;
+            position: relative;
+
+            img {
+                float: right;
+            }
+        }
+    }
+}
+
+#huidao {
+    width: 54px;
+    height: 54px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 55px;
+    background: #ccc;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    z-index: 999;
+    transform: rotate(-90deg);
+}
+

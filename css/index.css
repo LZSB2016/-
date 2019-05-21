@@ -1,0 +1,408 @@
+/* banner */
+#banner {
+  height: 427px;
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+
+.sangar_content li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  line-height: 300px;
+  font-size: 40px;
+  height: 427px;
+  width: 100%; }
+
+.sangar_content li img {
+  width: 100%; }
+
+.light .active {
+  background: blue; }
+
+.light {
+  width: 500px;
+  height: 20px;
+  position: absolute;
+  left: 40%;
+  bottom: 10px;
+  /*background: #ccc;*/
+  text-align: center; }
+
+.light span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #cecfd5;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer;
+  text-indent: -9999px;
+  overflow: hidden;
+  border: 1px solid #fff;
+  margin: 0 5px; }
+
+/* main */
+#main {
+  height: 2313px;
+  background: #fff; }
+
+.m1 {
+  height: 320px;
+  box-sizing: border-box;
+  padding-bottom: 12px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px; }
+
+.m1 > div {
+  float: left;
+  padding: 19px 13px 14px;
+  box-sizing: border-box;
+  width: 33.33333333%; }
+
+.m1 > div img {
+  width: 100%; }
+
+.m2 {
+  height: 472px;
+  padding: 15px 30px;
+  box-sizing: border-box;
+  padding-bottom: 22px; }
+  .m2 li {
+    background: #F5F5F5; }
+    .m2 li .lunbo2_div {
+      background: #fff; }
+
+.m2_1 {
+  height: 375px;
+  position: relative;
+  background: #fff;
+  margin-top: 60px; }
+
+.m2_1 > p {
+  position: absolute;
+  top: -60px;
+  font-size: 26px;
+  color: #333; }
+
+.m2_1 > a {
+  position: absolute;
+  top: -50px;
+  font-size: 20px;
+  color: #333;
+  right: 40px; }
+
+.xuanxiang {
+  position: absolute;
+  top: -50px;
+  left: 150px;
+  height: 40px;
+  background: #fff; }
+
+.xuanxiang li {
+  float: left;
+  height: 27px;
+  display: inline-block;
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  line-height: 20px;
+  margin: 0 15px;
+  cursor: pointer;
+  background: #fff; }
+
+.xuanxiang .active2 {
+  border-bottom: 2px solid blue;
+  color: blue; }
+
+.lunbo2 {
+  /* position: absolute; */
+  height: 100%; }
+
+.lunbo2 li {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.lunbo2 li .lunbo2_div {
+  margin-right: 10px;
+  height: 100%;
+  float: left;
+  width: 297.5px; }
+
+.lunbo2 li .lunbo2_div:nth-child(4) {
+  margin-right: 0px; }
+
+.lunbo2 li .lunbo2_div div {
+  padding: 20px 24px 20px 40px;
+  overflow: hidden;
+  position: relative; }
+
+.lunbo2 li .lunbo2_div div img {
+  width: 217px; }
+
+.lunbo2 li .lunbo2_div div h3 {
+  line-height: 22px;
+  margin: 15px auto 5px;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  letter-spacing: 0;
+  margin-bottom: 0; }
+
+.lunbo2 li .lunbo2_div div p {
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  letter-spacing: 0;
+  margin-bottom: 0; }
+
+.m2_1 i {
+  position: absolute;
+  display: inline-block;
+  height: 46px;
+  width: 26px;
+  line-height: 46px;
+  font-size: 25px;
+  border: 1px solid #ccc;
+  top: 50%;
+  box-sizing: border-box;
+  z-index: 6;
+  cursor: pointer; }
+
+.m2_1 i:hover {
+  background: #ccc; }
+
+.m2_1 .il {
+  /* top: 50%; */
+  border-left: 0; }
+
+.m2_1 .ir {
+  right: 0;
+  border-right: 0; }
+
+/* m3 */
+.m3 {
+  height: 284px;
+  padding: 15px 30px;
+  padding-bottom: 22px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden; }
+  .m3 p {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 28px; }
+  .m3 .lunbo3 li {
+    position: absolute;
+    height: 184px;
+    width: 100%; }
+    .m3 .lunbo3 li img {
+      width: 100%; }
+  .m3 .lunbo3_1 {
+    position: absolute;
+    bottom: 32px;
+    left: 50%; }
+    .m3 .lunbo3_1 li {
+      border-radius: 99%;
+      float: left;
+      background: #cecfd5;
+      opacity: .8;
+      width: 16px;
+      height: 16px;
+      margin: 0 5px;
+      border: 2px solid #fff; }
+    .m3 .lunbo3_1 .active3 {
+      background: #1428a0; }
+
+.m4 {
+  height: 495px; }
+  .m4 > p {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 32px; }
+  .m4 .m4_ul {
+    height: 395px;
+    background: #f5f5f5; }
+    .m4 .m4_ul li {
+      height: 100%;
+      width: 24.415%;
+      background: #fff;
+      text-align: center;
+      margin-right: 10px;
+      float: left; }
+      .m4 .m4_ul li img {
+        display: inline-block;
+        width: 237px; }
+      .m4 .m4_ul li > p {
+        font-size: 16px;
+        color: #333;
+        letter-spacing: 0;
+        margin-bottom: 0; }
+      .m4 .m4_ul li h3 {
+        line-height: 22px;
+        margin: 15px auto 5px;
+        height: 48px;
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+        font-size: 16px;
+        color: #333;
+        letter-spacing: 0;
+        margin-bottom: 0; }
+        .m4 .m4_ul li h3 p {
+          font-size: 12px !important;
+          color: #b1b1b1 !important; }
+    .m4 .m4_ul :nth-child(4) {
+      margin-right: 0px; }
+
+.m5 {
+  height: 244px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  box-sizing: border-box; }
+  .m5 .m5_1 {
+    padding: 19px 13px 14px; }
+    .m5 .m5_1 a {
+      display: inline-block;
+      width: 100%;
+      height: 100%; }
+
+.m6 {
+  box-sizing: border-box;
+  padding: 15px 30px;
+  padding-bottom: 22px; }
+  .m6 .m6_1 {
+    position: relative;
+    height: 375px;
+    margin: 60px auto 0; }
+    .m6 .m6_1 > p {
+      font-size: 26px;
+      color: #333;
+      position: absolute;
+      top: -60px; }
+    .m6 .m6_1 p {
+      margin: 0 0 10px; }
+    .m6 .m6_1 .xuanxiang2 {
+      position: absolute;
+      top: -50px;
+      left: 150px;
+      font-size: 0;
+      text-align: center;
+      height: 13%; }
+      .m6 .m6_1 .xuanxiang2 li {
+        height: 20px;
+        display: inline-block;
+        font-size: 20px;
+        color: #333;
+        text-align: center;
+        line-height: 20px;
+        margin: 0 15px;
+        cursor: pointer; }
+      .m6 .m6_1 .xuanxiang2 .active3 {
+        color: #1428a0;
+        padding-bottom: 5px;
+        border-bottom: 2px solid #1428a0; }
+    .m6 .m6_1 .lunbo4 {
+      width: 100%;
+      height: 100%; }
+      .m6 .m6_1 .lunbo4 li {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #f5f5f5; }
+        .m6 .m6_1 .lunbo4 li > div {
+          height: 100%;
+          width: 24.386%;
+          float: left;
+          text-align: center;
+          margin-right: 10px;
+          background: #fff; }
+          .m6 .m6_1 .lunbo4 li > div img {
+            width: 217px; }
+          .m6 .m6_1 .lunbo4 li > div h3 {
+            line-height: 22px;
+            margin: 15px auto 5px;
+            height: 50px;
+            width: 100%;
+            overflow: hidden;
+            text-align: center;
+            font-size: 16px;
+            color: #333;
+            letter-spacing: 0;
+            margin-bottom: 0; }
+            .m6 .m6_1 .lunbo4 li > div h3 p {
+              font-size: 12px !important;
+              color: #b1b1b1 !important; }
+        .m6 .m6_1 .lunbo4 li > div:nth-child(4) {
+          margin-right: 0; }
+    .m6 .m6_1 > i {
+      position: absolute;
+      top: 42%;
+      width: 25px;
+      height: 44px;
+      background: #fff;
+      text-align: center;
+      line-height: 44px;
+      font-size: 25px;
+      border: 1px solid #e5e5e5;
+      cursor: pointer; }
+    .m6 .m6_1 > i:hover {
+      background: #ccc; }
+    .m6 .m6_1 .ir2 {
+      right: 0px;
+      border-right: 0; }
+    .m6 .m6_1 .il2 {
+      left: 0px;
+      border-left: 0; }
+
+#main2 {
+  height: 154px;
+  padding: 0 30px;
+  margin-top: 26px;
+  background: #fff;
+  border-top: 1px solid #dadee2; }
+  #main2 .main2_1 {
+    height: 153px;
+    padding: 35px 0 28px;
+    box-sizing: border-box; }
+    #main2 .main2_1 .main_x {
+      width: 33.33%;
+      height: 100%;
+      float: left; }
+      #main2 .main2_1 .main_x .main_x_l {
+        float: left;
+        width: 25%;
+        height: 55px; }
+        #main2 .main2_1 .main_x .main_x_l i {
+          display: inline-block;
+          width: 50px;
+          height: 50px;
+          font-size: 50px; }
+      #main2 .main2_1 .main_x .main_x_r {
+        float: left; }
+        #main2 .main2_1 .main_x .main_x_r p {
+          font-size: 14px;
+          margin-bottom: 0;
+          line-height: 30px; }
+          #main2 .main2_1 .main_x .main_x_r p span {
+            margin-left: 18px; }
+    #main2 .main2_1 .dl {
+      padding-left: 4%;
+      border-left: 1px solid #e3e6e9;
+      box-sizing: border-box; }
+
+/*# sourceMappingURL=index.css.map */
